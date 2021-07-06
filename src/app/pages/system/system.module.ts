@@ -9,6 +9,12 @@ import { NgxUploaderModule } from 'ngx-uploader';
 import { MaterialModule } from 'app/appMaterial.module';
 import { CommonDirectivesModule } from 'app/directives/common/common-directives.module';
 import { SystemDatasetPoolComponent } from 'app/pages/system/advanced/system-dataset-pool/system-dataset-pool.component';
+import { IXFormActions } from 'app/pages/system/general-settings/localization-form2/components/ix-form-actions/ix-form-actions.component';
+import { IXFormErrorsComponent } from 'app/pages/system/general-settings/localization-form2/components/ix-form-errors/ix-form-errors.component';
+import { IXFormFieldSet } from 'app/pages/system/general-settings/localization-form2/components/ix-form-field-set/ix-form-field-set.component';
+import { IXFormComponent } from 'app/pages/system/general-settings/localization-form2/components/ix-form/ix-form.component';
+import { IXInputComponent } from 'app/pages/system/general-settings/localization-form2/components/ix-input/ix-input.component';
+import { IXSelectComponent } from 'app/pages/system/general-settings/localization-form2/components/ix-select/ix-select.component';
 import { EntityModule } from '../common/entity/entity.module';
 import { AdvancedSettingsComponent } from './advanced';
 import { ConsoleFormComponent } from './advanced/console-form/console-form.component';
@@ -34,6 +40,7 @@ import { FailoverComponent } from './failover/failover.component';
 import { GeneralSettingsComponent } from './general-settings/general-settings.component';
 import { GuiFormComponent } from './general-settings/gui-form/gui-form.component';
 import { LocalizationFormComponent } from './general-settings/localization-form/localization-form.component';
+import { LocalizationForm2Component } from './general-settings/localization-form2/localization-form2.component';
 import { NTPServerFormComponent } from './general-settings/ntpservers/ntpserver-form';
 import { EulaComponent } from './general-settings/support/eula/eula.component';
 import { LicenseComponent } from './general-settings/support/license/license.component';
@@ -99,6 +106,13 @@ import { EnclosureModule } from './viewenclosure/enclosure.module';
     CronFormComponent,
     CronListComponent,
     SystemDatasetPoolComponent,
+    LocalizationForm2Component,
+    IXInputComponent,
+    IXSelectComponent,
+    IXFormErrorsComponent,
+    IXFormFieldSet,
+    IXFormActions,
+    IXFormComponent,
   ],
   entryComponents: [QRDialog],
   providers: [],
